@@ -2,6 +2,12 @@
 *.o
 *.map
 *.a
+*.bin
 GPATH
 GRTAGS
 GTAGS
+tmp/
+Image
+boot/boot
+tools/system
+tools/build
