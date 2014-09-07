@@ -2,3 +2,6 @@
 *.o
 *.map
 *.a
+GPATH
+GRTAGS
+GTAGS
