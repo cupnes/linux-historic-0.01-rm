@@ -10,9 +10,9 @@ LD86	=ld86 -0
 
 AS	=as
 LD	=ld
-LDFLAGS	=-s -x -M -Ttext 0 -e startup_32
+LDFLAGS	=-M -Ttext 0 -e startup_32
 CC	=gcc
-CFLAGS	=-Wall -O -fstrength-reduce -fomit-frame-pointer -fno-stack-protector 
+CFLAGS	=-Wall -O -fstrength-reduce -fomit-frame-pointer -fno-stack-protector -fno-builtin
 CPP	=gcc -E -nostdinc -Iinclude
 
 ARCHIVES=kernel/kernel.o mm/mm.o fs/fs.o
