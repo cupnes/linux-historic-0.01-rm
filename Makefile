@@ -12,7 +12,7 @@ AS	=as
 LD	=ld
 LDFLAGS	=-M -Ttext 0 -e startup_32
 CC	=gcc
-CFLAGS	=-Wall -O -fstrength-reduce -fomit-frame-pointer -fno-stack-protector -fno-builtin
+CFLAGS	=-Wall -O -fstrength-reduce -fomit-frame-pointer -fno-stack-protector -fno-builtin -g
 CPP	=gcc -E -nostdinc -Iinclude
 
 ARCHIVES=kernel/kernel.o mm/mm.o fs/fs.o
