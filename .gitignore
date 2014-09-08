@@ -3,6 +3,7 @@
 *.map
 *.a
 *.bin
+*.img
 GPATH
 GRTAGS
 GTAGS
